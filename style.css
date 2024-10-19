@@ -326,6 +326,22 @@ span {
   color: rgb(201, 201, 201);
   cursor: pointer;
 }
+.credit {
+  height: 100px;
+  text-align: center;
+  background-color: #2c2c2c;
+}
+.credit > a {
+  color: rgb(86, 86, 86);
+  border-bottom: 1px solid rgb(86, 86, 86);
+  transition: all 0.3s ease-in;
+}
+.credit > a:hover {
+  color: rgb(201, 201, 201);
+  background-color: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(10px);
+  cursor: pointer;
+}
 /* for responsive */
 @media screen and (min-width: 590px) and (max-width: 990px) {
   .about-list {
